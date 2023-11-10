@@ -154,7 +154,7 @@
                   "status": "Open",
                   "severity": "Medium",
                   "type": "Tampering",
-                  "description": "Ein Angreifer manipuliert einen vorhandenen Berechtigungsnachweis, um Zugang zu einer Zielanwendung zu erhalten\nCAPEC ID 226\nMITRE Taktik (Credential Access)\nUser Credential Manipulation (D-8, R-4, E-4, A-5, D-5) = 26\nOWASP ASVS => V2.4 Credential Storage V2.5 ",
+                  "description": "Ein Angreifer manipuliert einen vorhandenen Berechtigungsnachweis, um Zugang zu einer Zielanwendung zu erhalten\nCAPEC ID 226\nMITRE Taktik (Credential Access)\nUser Credential Manipulation (D-8, R-4, E-4, A-5, D-5) = 26\nOWASP ASVS => V2.4 Credential Storage V2.5 \nOWASP MASVS => MASVS-AUTH-3 ",
                   "mitigation": "- Abschwächen\n      - Verwendung von Salz in Password (D3-SPP)",
                   "modelType": "Generic",
                   "new": false,
@@ -167,7 +167,7 @@
                   "status": "Open",
                   "severity": "High",
                   "type": "Spoofing",
-                  "description": "Versuche, sich über gefälschte Webseiten, E-Mails oder Kurznachrichten als vertrauenswürdiger Kommunikationspartner in einer elektronischen Kommunikation auszugeben\nCAPEC ID 98\nMITRE Taktik (Initial Access)\nPhising Attack (D-7, R-8, E-8, A-9, D-3) = 35\nOWASP ASVS => V3.4 Cookie-based Session Management\n",
+                  "description": "Versuche, sich über gefälschte Webseiten, E-Mails oder Kurznachrichten als vertrauenswürdiger Kommunikationspartner in einer elektronischen Kommunikation auszugeben\nCAPEC ID 98\nMITRE Taktik (Initial Access)\nPhising Attack (D-7, R-8, E-8, A-9, D-3) = 35\nOWASP ASVS => V3.4 Cookie-based Session Management\nOWASP MASVS=> MASVS-PLATFORM-3",
                   "mitigation": "- Akzeptieren\n- Transfer\n   - Nutzerbedingung & Rechte zustimmen\n   - Deklarieren, dass wir als Unternehmen nach sensitiven Daten auf keinen Fall fragen",
                   "modelType": "Generic",
                   "new": false,
@@ -1428,5 +1428,5 @@
     "diagramTop": 10,
     "threatTop": 134
   },
-  "version": "2.0.7"
+  "version": "2.1.1"
 }
