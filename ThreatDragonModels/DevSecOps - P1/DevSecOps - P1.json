@@ -181,7 +181,7 @@
           {
             "position": {
               "x": 498,
-              "y": -15.999999999999936
+              "y": -7
             },
             "size": {
               "width": 130,
@@ -215,7 +215,7 @@
                   "status": "Open",
                   "severity": "Medium",
                   "type": "Denial of service",
-                  "description": "Großer Anzahl von Logins in einem Zeitraum => Server überlastet\nCAPEC ID 125\nMITRE Taktik (Impact)\nBrute Force Request (D-5, R-9, E-6, A-10, D-5) = 35 \nOWASP ASVS => V2.2 General Authenticator Security",
+                  "description": "Großer Anzahl von Logins in einem Zeitraum => Server überlastet\nCAPEC ID 125\nMITRE Taktik (Impact)\nBrute Force Request (D-5, R-9, E-6, A-10, D-5) = 35 \nOWASP ASVS => V2.2 General Authenticator Security\nOWASP MASVS=> MASVS-NETWORK-1",
                   "mitigation": "- Beseitigen\n      - Request Limit (3 Versuche) (D3-CAA)\n      - Wartezeit für jede falschen Versuche (Exponentiellen Wachstum) (D3-CAA)",
                   "modelType": "Generic",
                   "new": false,
@@ -267,7 +267,7 @@
                   "status": "Open",
                   "severity": "Medium",
                   "type": "Information disclosure",
-                  "description": "Ein Angreifer überwacht Datenströme zum oder vom Ziel, um Informationen zu sammeln. Dieser Angriff kann ausschließlich zum Sammeln sensibler Informationen oder zur Unterstützung eines weiteren Angriffs auf das Ziel durchgeführt werden.\nCAPEC ID 117\nMITRE Taktik (Collection)\nSensitive Data Intercept (D-10, R-7, E-6, A-4, D-5) = 32\nOWASP ASVS =>  V9.2 Server Communication Security",
+                  "description": "Ein Angreifer überwacht Datenströme zum oder vom Ziel, um Informationen zu sammeln. Dieser Angriff kann ausschließlich zum Sammeln sensibler Informationen oder zur Unterstützung eines weiteren Angriffs auf das Ziel durchgeführt werden.\nCAPEC ID 117\nMITRE Taktik (Collection)\nSensitive Data Intercept (D-10, R-7, E-6, A-4, D-5) = 32\nOWASP ASVS =>  V9.2 Server Communication Security\nOWASP MASVS=> MASVS-NETWORK-1",
                   "mitigation": "- Beseitigen\n      - HTTPS (statt HTTP, um die Daten bei der Übertragung zu verschlüsseln) (D3-ET)\n      - TCP (Verschlüsselung in TCP) (D3-ET)\n      - CORS + Same Origin Policy (Einschränkung der erlaubten Zugriffe) (D3-NTF)",
                   "modelType": "Generic",
                   "new": false,
